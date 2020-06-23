@@ -1,0 +1,28 @@
+{
+  "name": "testcafe-project",
+  "version": "1.0.0",
+  "description": "Browser test automation using TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mck3nz1e/TestCafe.git"
+  },
+  "author": "Scott McKenzie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mck3nz1e/TestCafe/issues"
+  },
+  "homepage": "https://github.com/mck3nz1e/TestCafe#readme",
+  "dependencies": {
+    "testcafe": "^1.8.6",
+    "testcafe-reporter-html": "^1.4.6"
+  },
+  "devDependencies": {
+    "axe-core": "^3.5.5",
+    "axe-testcafe": "^3.0.0",
+    "testcafe-blink-diff": "^0.4.5"
+  }
+}
